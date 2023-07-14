@@ -1,22 +1,61 @@
-<h1> TOURS AND TRAVELS MANAGEMENT SYSTEM </h1>
+TOURS AND TRAVELS MANAGEMENT SYSTEM.
 
-
-
-
-
-
-
+The tours and travel management system is a web based application. It is used to
+automate the process of tour and travel which deals with creation, booking and 
+confirmations for tour purposes. The system will facilitate the efficient 
+management of tourism operations and enhance the overall experience. By 
+centralizing and automating key processes, the system will help tourism and 
+travelling organizations streamline their operations. Ultimately, the Tours and
+Travels Management System will empower businesses in the tourism industry to 
+deliver seamless and memorable travel experiences to tourists and travelers while 
+maximizing operational efficiency.
 
 
 THE PROBLEM.
-<p> The Tours and Travels Management System aims to address the challenges faced by travel agencies, tour operators
+
+The Tours and Travels Management System aims to address the challenges faced by travel agencies, tour operators
 and corporate travel departments in efficiently managing and organizing tours and travel-related activities. 
 The traditional manual processes involved in handling bookings, managing customer data and ensuring compliance 
 with travel policies are time-consuming, error-prone and lack scalability. The system seeks to streamline these 
 processes by providing a centralized platform that automates various tasks such as online bookings, customer 
 relationship management and reporting. By addressing these challenges the system enables businesses to enhance 
 their operational efficiency, deliver personalized services, optimize resource utilization, improve customer satisfaction
-and ultimately achieve better business outcomes in the competitive travel industry. </p>
+and ultimately achieve better business outcomes in the competitive travel industry.
 
 FEATURES.
 
+1. User-friendly booking options.
+   Ensure users does not face any difficulties in, for example, booking 
+   accomodations.
+2. Booking Management.
+   Enable users to create and manage bookings for various travel services 
+   including accommodations, tours and transportation.
+3. Security Requirements.
+   Tour and Travel should be secured and used by the accurately authorized 
+   personnel. Every user must be identified by their own secured account.
+4. Portability.
+   Tours and Travels Management system should be easily portable since the
+   system will be used by different users in different locations.
+5. Easy payment options.
+   Upgraded payment options other than cash while travelling.
+6. Registration.
+7. Management of user and tour-package.
+8. User-friendly UI.
+
+
+RISKS.
+1. Data Security.
+   As the system deals with sensitive customer information, there is a risk of 
+   data breaches or unauthorized access.
+2. Integration Challenges.
+   Integrating the system with external suppliers, payment gateways or other 
+   third-party systems can be complex. Compatibility issues or service disruptions
+   from third-party providers can pose risks to the system's functionality.
+3. User Adoption.
+   Introducing a new system requires user adoption. Resistance to change can 
+   result reduced productivity and dissatisfaction.
+4. Internet Access.
+   Unstable connections can disrupt the system's operations.
+5. The system can only be access with use of internet connection.
+6. The system will be a web-based system so the customers may not be able to 
+   enjoy the full experience using mobile phone. 
