@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tours and Travel Management System</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- (BACKGROUNG IMAGE)<img src="images/sean-oulashin-KMn4VEeEPR8-unsplash.jpg" alt="" style="width: 800px;height: 1000px;"> -->
+    <!--header section -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><img src="images/planearoundworldlogo.png" alt=""><span>T</span>RAVEL</a>
+
+        <nav class="navbar">
+           <a href="#home">Home</a>
+           <a href="#packages">Packages</a> 
+           <a href="#services">Services</a> 
+           <a href="#book">Book</a> 
+           <a href="#gallery">Gallery</a> 
+           <a href="#review">Review</a> 
+           <a href="#contacts">Contacts</a>  
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+
+
+    <!--login form-->
+    <div class="login-form-container">
+
+        <i class="fas fa-time" id="form-close"></i>
+        
+        <form action="">
+            <h3>LOGIN</h3>  
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="Login" class="btn">
+            <input type="checkbox" id="RememberMe">
+            <label for="RememberMe">Remember Me</label>
+            <p>Forgot password? <a href="#">click here</a></p>
+            <p>Don't have an Account? <a href="#">Register Now</a></p>
+        </form>
+    </div>
+
+    <!--home section-->
+    <section class="home" id="home" style="background-image: url('background.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+        
+      
+        
+       <div class="content">
+        
+            <h4>GLOBE'S BEST SPOTS</h4>  
+            <h3>Discover the <br>world's most <br>exquisite and <br>captivating <br>
+            destinations </h3>
+            <p>Tailored journeys creating cherished memories. <br>
+                Unforgettable holidays designed just for you. <br>
+                Let us craft your dream vacation. <br>
+                Adventure awaits.</p>
+       </div> 
+       <div class="images">
+
+       </div>
+       
+    </section>
+
+    <!--packages section-->
+     <section class="packages" id="packages">
+       <h1 class="heading">PACKAGES</h1> 
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/cairo.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Cairo </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$575 <span>$620</span></div>
+                    <a href="#" class="btn-p">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/zanzibar.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Zanzibar </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$469 <span>$550</span></div>
+                    <a href="#" class="btn-p">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/capetown.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Cape Town </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$799 <span>$950</span></div>
+                    <a href="#" class="btn-p">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/lamu.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Lamu </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$289 <span>$350</span></div>
+                    <a href="#" class="btn-p">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/livingstone.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Livingstone </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$650 <span>$745</span></div>
+                    <a href="#" class="btn-p">Book Now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/nakuru.jpg" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> Nakuru </h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$125 <span>$200</span></div>
+                    <a href="#" class="btn-p">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--services section-->
+    <section class="services" id="services">
+        <h1 class="heading">SERVICES</h1>
+            <div class="box-container">
+
+                <div class="box">
+                   <i class="fas fa-hotel"></i>
+                   <h3>Affordable Hotels</h3>
+                   <p>Our selection of budget-friendly <br>
+                    hotels that offer comfortable accommodations <br>
+                    without breaking the bank. </p>
+                </div>
+
+                <div class="box">
+                    <i class="fas fa-hiking"></i>
+                    <h3>Adventures</h3>
+                    <p>Thrilling adventures await! Dive into exciting experiences <br>
+                        and unforgettable journeys with our adventurous <br>
+                        travel packages.</p>
+                 </div>
+
+                 <div class="box">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Food and Drinks</h3>
+                    <p>Tantalizing food and refreshing drinks. <br>
+                        Savor the flavors without compromising your budget</p>
+                 </div>
+
+                 <div class="box">
+                    <i class="fas fa-plane"></i>
+                    <h3>Fastest Travels</h3>
+                    <p>Experience the fastest travels. <br>
+                        Reach your destination swiftly and efficiently with our <br>
+                        efficient travel services.</p>
+                 </div>
+
+                 <div class="box">
+                    <i class="fas fa-earth"></i>
+                    <h3>Around the World</h3>
+                    <p> Explore multiple countries and continents with <br>
+                        our 'Around the World' travel packages.</p>
+                 </div>
+
+                 <div class="box">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Safety Guide</h3>
+                    <p>Your safety is our priority. <br>
+                        Discover our comprehensive safety guide for a worry-free <br>
+                       and secure journey.</p>
+                 </div>
+            </div>
+
+    </section>
+
+    
+    <!--book section-->
+    <section class="book" id="book">
+        <h1 class="heading">BOOK TICKET</h1>
+         
+        <div class="row">
+            <div class="image">
+                <img src="images/1061148_airplane_flight_journey_tickets_travel_icon.png" alt="">
+            </div>
+
+            <form action="">
+
+               <div class="inputBox">
+                    <h3>Where To</h3>
+                    <input type="text" placeholder="Name of place">
+               </div> 
+               <div class="inputBox">
+                    <h3>How Many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div> 
+                <div class="inputBox">
+                    <h3>Arrivals</h3>
+                    <input type="date">
+                </div> 
+                <div class="inputBox">
+                    <h3>Leaving</h3>
+                    <input type="date">
+               </div> 
+               <input type="submit" class="btn-p" value="Book Now">
+            </form>
+        </div>
+    </section>
+
+    <!--gallery section-->
+    <section class="gallery" id="gallery">
+        <h1 class="heading">GALLERY</h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/1.jpg" alt="">
+                <div class="content">
+                    <h3>Captivating Destinations</h3>
+                    <a href="#" class="btn-p">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/2.jpg" alt="">
+                <div class="content">
+                    <h3>Captivating Destinations</h3>
+                    <a href="#" class="btn-p">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/3.jpg" alt="">
+                <div class="content">
+                    <h3>Captivating Destinations</h3>
+                    <a href="#" class="btn-p">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/4.jpg" alt="">
+                <div class="content">
+                    <h3>Captivating Destinations</h3>
+                    <a href="#" class="btn-p">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/5.jpg" alt="">
+                <div class="content">
+                    <h3>Captivating Destinations</h3>
+                    <a href="#" class="btn-p">see more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/6.jpg" alt="">
+                <div class="content">
+                    <h3>Captivating Destinations</h3>
+                    <a href="#" class="btn-p">see more</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--reviews section-->
+    <section class="review" id="review">
+        <h1 class="heading">REVIEWS</h1>
+
+        <div class="review-slider">
+
+
+                    <div class="box">
+                        <img src="images/dp1.png" alt="">
+                        <h3>Jane Mwendo</h3>
+                        <h4>Nairobi, Kenya</h4>
+                        <p>An incredible adventure! The tour's <br>
+                            knowledgeable guide enriched the <br>
+                            experience with fascinating insights. <br> 
+                            Breathtaking destinations, comfortable <br>
+                            accommodations and outstanding <br>
+                            service made it unforgettable. <br>
+                            Highly recommended for travelers <br>
+                            seeking authentic and memorable <br>
+                            journeys. Can't wait to book my next trip <br>
+                            with them!</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                    </div>
+                
+
+                    <div class="box">
+                        <img src="images/dp2.png" alt="">
+                        <h3>Alvin Mwenda</h3>
+                        <h4>Kampala, Uganda</h4>
+                        <p>Absolutely blown away by the tour! <br>
+                            The guide was fantastic, sharing  <br>captivating 
+                            stories and making the <br>trip more enjoyable. 
+                            Spectacular <br> destinations left me speechless. <br>
+                            The team's attention to detail and <br>
+                            excellent service made it a <br>seamless experience. 
+                             Highly recommended <br>for fellow adventurers.
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                    </div>
+                
+
+        </div>
+
+    </section>
+
+    <!--contact us section-->
+    <section class="contacts" id="contacts">
+        <h1 class="heading">CONTACT US</h1>
+
+        <div class="box-container">
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="Number">
+                <input type="text" placeholder="Subject">
+            </div>
+            <textarea placeholder="Message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn-p" value="Send Message">
+        </form>
+        </div>
+
+    </section>
+    <!--footer section-->
+
+    <footer class="footer">
+        <!--
+        <div class="container">
+            <div class="email">
+                <input type="email" placeholder="Your Email">
+                <i class="icon fa fa-envelope"></i>
+                <button type="submit">Subscribe</button>
+            </div>
+        </div>
+        -->
+        <div class="box-container">
+            
+
+            <div class="box">
+                <a href="#" class="logo"><img src="images/planearoundworldlogo.png" alt=""><span>T</span>RAVEL</a>
+                <p>Personalized service, cultural immersions <br> and seamless travel experiences. <br>
+                Embrace wanderlust, explore, <br>
+                and create memories.</p>
+                <div class="social-icons">
+                    <a href="#"  class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#"  class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#"  class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div> 
+            </div>
+            <div class="box">
+                <h3>Help</h3>
+                <a href="#">Help/FAQ</a>
+                <a href="#">Press</a>
+                <a href="#">Cancel Your Flight</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#packages">Packages</a> 
+                <a href="#services">Services</a> 
+                <a href="#book">Book</a> 
+                <a href="#gallery">Gallery</a> 
+                <a href="#review">Review</a> 
+                <a href="#contacts">Contacts</a> 
+            </div>
+            <div class="box">
+                <h3>Terms</h3>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Accessibility</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit">Designed and Created by <span>Rachael Kivuti</span></h1>
+    </footer>
+    
+
+    <script src="js/script.js"> </script>
+</body>    
+</html>
